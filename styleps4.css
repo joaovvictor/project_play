@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif; 
+}
+
+:root {
+    --white: #fff;
+    --red: #aa0505;
+    --gray: #959595;
+    --blue: #56c5db;
+  }
+
+
+
+
+.secao-1{
+    /* border: 2px solid tomato; */
+    width: 100%; 
+    height: 6vw;
+    font-family: 'Inter', sans-serif; 
+    /* position: fixed; */
+    background-color: #ffffff;
+}
+.div-1{
+    background-color: black;
+    height: 36px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.div-1 a > img{
+    margin-right: 15px;
+}
+
+.div-img{
+    /* border: 1px solid red; */
+    width: 8%;
+    margin-left: 30px;
+    text-align: center;
+   
+}
+.div-navbar{
+    /* border: 3px solid tomato; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-list{
+    /* border: 2px solid black; */
+    width: 70%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+.div-list ul{
+    display: flex;
+    gap: 150px;
+    list-style-type: none;
+    padding-left: 30px;
+    
+    
+    
+}
+
+.div-list ul a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+.div-botao{
+    /* border: 2px solid black; */
+    width: 23%;
+}
+
+.button1{
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.button1 a > button{
+    background-color: #0070cc;
+    color: white;
+    font-size: large;
+    font-weight: 500;
+    text-shadow: none;
+    width: 140%;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+
+
+.container-main{
+    /* padding-top: 100px; */
+    /* border: 3px solid tomato; */
+    height: 300vh;
+    width: 100%;
+    background-image: url("https://gmedia.playstation.com/is/image/SIEPDC/gift-cards-banner-hero-desktop-01-en-07oct21?$3200px$");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.dropbtn {
+    color: black;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  
+  .dropdown-content {
+    display: none;
+    background-color: rgb(4, 4, 189);
+    position: absolute;
+    min-width: 160px;
+
+    z-index: 1;
+  }
+  
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+  
+.dropdown-content a:hover {
+    color: white;
+    cursor: pointer;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+
+
+ 
+.normal-section + .normal-section {
+    /* border: 3px solid tomato; */
+    margin-top: 80px;
+    
+    
+  }
+  
+  .products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    
+   
+  }
+  
+  .movie-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .product-title {
+    font-size: 20px;
+    margin-bottom: 6px;
+  }
+  
+  .product-image {
+    width: 240px; /* Flex wrap coloca 2 posters por linha, pq a seção tem 600px */
+    height: 144px;
+  }
+  
+  .product-price-container {
+    margin-top: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+  }
+  
+  .product-price {
+    margin-right: 12px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+  }
+  
+  .button-hover-background {
+    background: var(--red);
+    color: var(--white);
+    border: 2px solid var(--red);
+    border-radius: 6px;
+    padding: 4px 2px;
+    font-weight: bold;
+  
+    transition: 0.2s;
+  }
+  
+  .button-hover-background:hover {
+    background: green;
+    color: var(--red);
+  }
+  
+  /* tabela carrinho de compras */
+  .cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    /* color: white; */
+    background-color: white;
+    
+    
+  }
+  
+  .table-head-item {
+    text-align: start;
+    border-bottom: 1px solid var(--gray);
+    padding-bottom: 6px;
+    text-transform: uppercase;
+    padding-top: 100px;
+  }
+  
+  .second-col,
+  .third-col {
+    width: 26%;
+  }
+  
+  .cart-product td {
+    padding: 8px 0;
+  }
+  
+  .product-identification {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-product-image {
+    width: 120px;
+    height: 70px;
+  }
+  
+  .cart-product-title {
+    margin-left: 16px;
+    font-size: 18px;
+  }
+  
+  .cart-product-price {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .product-qtd-input {
+    width: 48px;
+    height: 34px;
+    border-radius: 6px;
+    border: 2px solid var(--blue);
+    text-align: center;
+    background: #eee;
+  }
+  
+  .remove-product-button {
+    margin-left: 12px;
+    background: #ff0000;
+    color: var(--white);
+    padding: 10px 8px;
+    border: 0;
+    border-radius: 6px;
+  
+    transition: filter 0.2s;
+  }
+  
+  .remove-product-button:hover {
+    filter: brightness(0.8);
+  }
+  
+  .cart-total-container {
+    border-top: 1px solid var(--gray);
+    text-align: end;
+    padding: 6px 16px 0 0;
+    font-size: 18px;
+  }
+  
+  .cart-total-container strong {
+    margin-right: 12px;
+  }
+  
+  .purchase-button {
+    display: flex;
+    margin: 24px auto 0;
+    background: var(--blue);
+    color: var(--white);
+    border: 0;
+    border-radius: 6px;
+    padding: 16px 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+  
+    transition: filter 0.2s;
+  }
+  
+  .purchase-button:hover {
+    filter: brightness(0.8);
+  }
+  
+  
+  
+  /* Responsividade */
+  @media (max-width: 584px) {
+    .movie-title-large {
+      font-size: 36px;
+    }
+  
+    .schedule-item {
+      flex-wrap: wrap;
+      text-align: center;
+    }
+  
+    .schedule-item + .schedule-item {
+      margin-top: 12px;
+    }
+  
+    .show-date,
+    .show-place {
+      width: 32%;
+      padding: 4px;
+    }
+  
+    .show-city {
+      width: 33%;
+      padding: 4px;
+    }
+  
+    .buy-ticket-button {
+      width: 60%;
+      margin-top: 12px;
+      padding: 12px 2px;
+    }
+  
+  
+    .products-container {
+      justify-content: center;
+    }
+  
+    .product-identification {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .cart-product-title {
+      margin-top: 6px;
+    }
+  
+    .product-qtd-input {
+      display: block;
+      margin: 0 auto;
+    }
+  
+    .remove-product-button {
+      display: block;
+      margin: 8px auto 0;
+    }
+  }
+  
+  @media (max-width: 470px) {
+    .about-movie-image {
+      width: 160px;
+    }
+  
+    .main-footer-container {
+      flex-direction: column;
+    }
+  
+    .movie-title-medium {
+      margin-bottom: 16px;
+    }
+  }
+
+
+
+
+
+
+  .footer{
+    /* border: 3px solid tomato; */
+    padding-top: 2vw;
+    width: 100%;
+    /* height: 20vw; */
+    background-color: #00439c;
+}
+
+.container-foot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.listas{
+    /* border: 3px solid black; */
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.zzz{
+    width: 40%;
+}

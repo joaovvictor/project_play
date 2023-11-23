@@ -1,0 +1,724 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif; 
+}
+
+
+@media screen and (max-width: 600px){
+    h1{
+        color: red;
+    }
+    
+    .div-navbar{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .div-img{
+        display: none;
+    }
+
+    
+    
+}
+
+.secao-1{
+    /* border: 2px solid tomato; */
+    width: 100%; 
+    font-family: 'Inter', sans-serif; 
+    position: fixed;
+    background-color: #ffffff;
+}
+.div-1{
+    /* border: 3px solid tomato; */
+    background-color: black;
+    height: 36%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+/* .div-1 a > img{
+    margin-right: 15px;
+} */
+
+.div-img{
+    /* border: 1px solid red; */
+    width: 8%;
+    margin-left: 2%;
+    text-align: center;
+   
+}
+.div-navbar{
+    /* border: 3px solid tomato; */
+    height: 7vh;
+    display: flex;
+}
+
+.div-list{
+    /* border: 2px solid black; */
+    width: 70%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+.div-list ul{
+    display: flex;
+    gap: 150px;
+    list-style-type: none;
+    padding-left: 30px;
+    
+    
+    
+}
+
+.div-list ul a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+
+
+.div-botao{
+    /* border: 2px solid black; */
+    width: 23%;
+}
+
+.button1{
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.button1 a > button{
+    background-color: #0070cc;
+    color: white;
+    font-size: large;
+    font-weight: 500;
+    text-shadow: none;
+    width: 140%;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+/*----------------------- MAIN -----------------------------*/
+
+/* seção 1 */
+
+.container{
+    height: 35vw;
+    width: 100%;
+    background-image: url("https://gmedia.playstation.com/is/image/SIEPDC/gift-cards-banner-hero-desktop-01-en-07oct21?$3200px$");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 150px;
+
+    
+    
+
+}
+
+.content{
+    /* border: 2px solid rgb(221, 4, 185; */
+    height: 100%;
+    width: 70vh;
+    color: white;
+    
+    
+}
+
+
+.content h1 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.content p{
+    opacity: .8;
+    padding-top: 25px;
+}
+
+.button2{
+    padding-top: 18px;
+}
+
+.button2 a > button{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    text-shadow: none;
+    width: 30%;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+/*seçao 2*/
+
+
+.main-secao-2{
+    /* border: 2px solid tomato; */
+    background-color: rgba(247, 228, 228, 0.521);
+    height: 17vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.conteudo{
+    /* border: 2px solid royalblue; */
+    width: 42%;
+
+}
+
+.conteudo h2{
+    padding-top: 40px;
+    font-size: 45px;
+    font-weight: 300;
+
+}
+
+.conteudo p{
+    font-size: larger;
+    font-weight: 300;
+    opacity: .8;
+    padding-top: 20px;letter-spacing: .1px;
+
+}
+
+
+.button3{
+    padding-top: 18px;
+}
+
+.button3 a > button{
+    background-color: #0070cc;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    text-shadow: none;
+    width: 30%;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* seçao 3 */
+
+.main-secao-3{
+    height: 45vw;
+    width: 100%;
+    /* border: 3px solid tomato; */
+}
+
+.introducao{
+    /* border: 2px solid black; */
+    width: 100%;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.introducao1{
+    /* border: 2px solid tomato; */
+    width: 50%;
+}
+
+.introducao1 h2{
+    font-size: 44px;
+    font-weight: 200;
+    letter-spacing: .1px;
+    display: block;
+    padding-top: 50px;
+}
+
+.introducao1 p{
+    font-size: large;
+    /* font-weight: 300; */
+    opacity: .65;
+    padding-top: 25px;
+    color: rgba(0, 0, 0, 0.925);
+}
+
+.container-n{
+    /* border: 2px solid tomato; */
+    padding: 70px 100px;
+    height: 30vw;
+    display: flex;
+}
+
+.playstore{
+    text-align: center;
+    /* border: 2px solid black; */
+    width: 45%;
+    height: 500px;
+    background-color: rgba(243, 235, 235, 0.521);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    letter-spacing: .1px;
+    line-height: 1.5em;
+    
+    
+}
+
+
+.playstore div:nth-child(1){
+    padding-bottom: 30px;
+}
+
+.playstore h3 {
+    font-size: 40px;
+    font-weight: 300;
+}
+.playstore p {
+    font-size: 18px;
+    font-weight: 400;
+    opacity: .65;
+    padding-top: 18px;
+}
+
+.button4{
+    padding-top: 18px;
+}
+
+.button4 a > button{
+    background-color: #0070cc;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    text-shadow: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.button5{
+    padding-top: 18px;
+}
+
+.button5 a > button{
+    background-color: rgb(213 59 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    text-shadow: none;
+    width: 250px;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+/* ------------------- secao 4 ---------------- */
+
+
+.main-secao-4{
+    width: 100%;
+    height: 64vw;
+    /* border: 2px solid black; */
+    background-color: #04599e;
+ 
+}
+
+.img-playstore{
+    /* border: 3px solid tomato; */
+    width: 100%;
+    height: 16%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.textos{
+    color: white;
+    text-align: center;   
+}
+
+.textos h2{
+    font-size: 40px;
+    font-weight: 300;   
+}
+
+.textos p{
+    padding-top: 30px;
+    font-size: 19px;
+}
+
+.container-bg{
+    height: 35vw;
+    /* border: 1px solid rgb(187, 2, 2); */
+    background-image: url("https://gmedia.playstation.com/is/image/SIEPDC/ps-store-device-range-image-block-01-en-07feb23?$1600px--t$");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    
+}
+
+.container-tt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-text-block{
+    /* border: 2px solid tomato; */
+    width: 50%;
+    height: 200px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: .1px;
+    line-height: 1.5em;
+    
+}
+
+.buttons-space{
+    display: flex;
+    justify-content: center;
+
+}
+
+.button6{
+    padding-top: 18px;
+}
+
+.button6 a > button{
+    background-color: rgb(246, 246, 246);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    text-shadow: none;
+    width: 250px;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.button7{
+    padding-top: 18px;
+    margin-left: 18px;
+}
+
+.button7 a > button{
+    background-color: #0070cc;
+    color: rgb(248, 248, 248);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    text-shadow: none;
+    width: 280px;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* secao 5 */
+
+.main-secao-5{
+    /* border: 3px solid tomato; */
+    width: 100%;
+    height: 70vw;
+    background-color: rgba(179, 173, 173, 0.521);
+}
+
+
+.img-playplus{
+    /* border: 3px solid tomato; */
+    width: 100%;
+    height: 16%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.textos-2{
+    text-align: center; 
+    /* border: 2px solid tomato;   */
+}
+
+.textos-2 h2{
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: .94em;
+    
+}
+
+.textos-2 p{
+    padding-top: 30px;
+    font-size: 18px;
+    opacity: .75;
+}
+
+.cards{
+    /* border: 2px solid rgb(12, 2, 0); */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+}
+
+
+.card-dee{
+    width: 30%;
+    cursor: pointer;
+    
+}
+
+img{
+    border-radius: 24px;
+}
+
+.card-dee h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.card-dee p{
+    padding-top: 14px;
+    opacity: .75;
+    font-size: 18px;
+}
+
+.button8{
+    padding-top: 20%;
+    padding-left: 20%;
+    margin-left: 70px;
+}
+
+.button8 a > button{
+    background-color: #0070cc;
+    color: rgb(248, 248, 248);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    text-shadow: none;
+    width: 180px;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+/* secao 6 */
+
+.main-secao-6{
+    width: 100%;
+    height: 27vw;
+    background-image: url("https://gmedia.playstation.com/is/image/SIEPDC/playstation-stars-hero-page-banner-desktop-01-en-02sep22?$3200px$");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #021b2f;
+    
+    
+}
+
+.bg-stars{
+    margin-left: 90px;
+}
+
+.p-stars{
+    color: white;
+    /* border: 3px solid black; */
+    width: 35%;
+    font-size: 20px;
+    margin-left: 70px;
+    letter-spacing: .1px;
+    line-height: 1.5em;
+}
+
+
+
+.button9{
+    padding-top: 2%;
+    padding-left: 4%;
+}
+
+.button9 a > button{
+    background-color: #ebebeb;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    text-shadow: none;
+    width: 180px;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.main-secao-7{
+    width: 100%;
+    height: 20vw;
+    background-image: url("https://gmedia.playstation.com/is/image/SIEPDC/privacy-hub-hero-banner-desktop-01-en-10jun22?$3200px$");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.bg-seg{
+    /* border: 3px solid tomato; */
+    width: 40%;
+    margin-left: 8%;
+    color: white;
+    
+    
+}
+
+.bg-seg h3{
+    font-size: 35px;
+    font-weight: 300;
+    
+}
+
+.bg-seg p{
+    padding-top: 14px;
+    font-size: 17px;
+    font-weight: 300;
+    
+}
+
+.button10{
+    padding-top: 2%;
+    
+}
+
+.button10 a > button{
+    background-color: #ebebeb;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    text-shadow: none;
+    width: 130px;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* footer */
+
+.footer{
+    width: 100%;
+    height: 20vw;
+    background-color: #00439c;
+}
+
+.container-foot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.listas{
+    /* border: 3px solid black; */
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.zzz{
+    width: 40%;
+}
+
+/**/
+
+
+
+.dropbtn {
+    color: black;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  
+  .dropdown-content {
+    display: none;
+    background-color: rgb(4, 4, 189);
+    position: absolute;
+    min-width: 160px;
+
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+  }
+  
+  .dropdown-content a:hover {
+    color: white;
+    cursor: pointer;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+ 
